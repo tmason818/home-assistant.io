@@ -87,3 +87,5 @@ The iOS app will only save the offline key to your device's filesystem if Auto-U
 The Android app will only save the offline key to your device's filesystem if Auto-Unlock has been enabled and used at least once. Auto-Unlock can be disabled once the key has been loaded.
 
 Root access is required to read the `key` and `slot` stored in `/data/data/com.august.luna/shared_prefs/PeripheralInfoCache.xml`
+
+NOTE: It appears the '/data/data/' folder has been restricted for viewing even for rooted devices starting with Android 11 and the /data/data/com.august.luna/ folder won't be visible. You'll need to find a copy of the Yale Access or August Home APK that works on a version of Android before 11.
